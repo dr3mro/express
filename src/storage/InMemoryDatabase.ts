@@ -1,4 +1,4 @@
-import Reminder from "../models/reminder.ts";
+import Reminder from "../models/reminder";
 
 class InMemoryDatabase {
     private static reminders: Reminder[] = [];

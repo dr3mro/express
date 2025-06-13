@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import Reminder from '../models/reminder.ts';
-import type CreateReminderDto from '../models/reminders.ts';
-import InMemoryDatabase from '../storage/InMemoryDatabase.ts';
+import Reminder from '../models/reminder';
+import type CreateReminderDto from '../models/reminders';
+import InMemoryDatabase from '../storage/InMemoryDatabase';
 
 const remindersRouter = Router();
 

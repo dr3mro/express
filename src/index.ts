@@ -1,5 +1,5 @@
 import express from 'express';
-import remindersRouter from './routers/reminders.ts';
+import remindersRouter from './routers/reminders';
 const app = express();
 
 app.use(express.json());
