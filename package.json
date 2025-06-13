@@ -3,10 +3,11 @@
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2"
   },
-  "type":"module",
+  "type": "module",
   "name": "typescript-express-server",
   "scripts": {
-    "start": "nodemon --exec ts-node src/index.ts"
+    "start": "nodemon --exec ts-node src/index.ts",
+    "build": "ts-node src/index.ts"
   },
   "dependencies": {
     "@types/express": "^5.0.3",
